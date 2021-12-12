@@ -1,5 +1,5 @@
 // Инициализация превью слайдера
-const sliderThumbs = new Swiper('.slider__thumbs .swiper-container', { // ищем слайдер превью по селектору
+const sliderThumbs = new Swiper('.slider__thumbs .swiper', { // ищем слайдер превью по селектору
 	// задаем параметры
 	direction: 'vertical', // вертикальная прокрутка
 	slidesPerView: 3, // показывать по 3 превью
@@ -19,7 +19,7 @@ const sliderThumbs = new Swiper('.slider__thumbs .swiper-container', { // ище
 	}
 });
 // Инициализация слайдера изображений
-const sliderImages = new Swiper('.slider__images .swiper-container', { // ищем слайдер превью по селектору
+const sliderImages = new Swiper('.slider__images .swiper', { // ищем слайдер превью по селектору
 	// задаем параметры
 	direction: 'vertical', // вертикальная прокрутка
 	slidesPerView: 1, // показывать по 1 изображению
